@@ -59,7 +59,7 @@ Most suitable for production jobs.
 - Connect with Putty AND WinSCP to the AWS Master node
 - Move the JAR to the Master node with WinSCP
 - Submit with ```spark-submit --class <mainClass> <jarFile> <inputDir> <outputDir>``` to run on Spark
-    - ```spark-submit --class ExampleWeather BD-301-spark-basics.jar s3a://unibo-bd2122-egallinucci/datasets/weather-sample1.txt s3a://unibo-bd2122-egallinucci/spark/301-2```
+    - ```spark-submit --class ExampleWeather BD-301-spark-basics.jar s3a://unibo-bd2223-egallinucci/datasets/weather-sample1.txt s3a://unibo-bd2223-egallinucci/spark/301-2```
     - Possibly add configuration parameters (e.g., ```--num-executors 4```) **before** the ```<jarFile>```
     
 
