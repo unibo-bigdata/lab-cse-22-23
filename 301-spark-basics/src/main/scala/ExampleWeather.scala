@@ -4,7 +4,7 @@ import java.io.InputStream
 import scala.io.Source._
 
 // spark-submit --class ExampleWeather BD-301-spark-basics.jar \\
-//    s3a://unibo-bd2122-egallinucci/datasets/weather-sample1.txt s3a://unibo-bd2122-egallinucci/spark/301-2
+//    s3a://unibo-bd2223-egallinucci/datasets/weather-sample1.txt s3a://unibo-bd2223-egallinucci/spark/301-2
 object ExampleWeather extends App {
 
   // Function to parse weather records; returns key -value pairs in the form(month, temperature)

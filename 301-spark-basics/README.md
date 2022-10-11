@@ -65,6 +65,9 @@ Most suitable for production jobs.
 
 *NOTE*: Spark libraries are heavy; use the fat JAR *only if* you need some library that is not in the cluster.
 
+>*I'm getting the error "java.lang.IllegalArgumentException: Unsupported class file major version XX".*  
+>Try updating gradle to a higher version by changing the file ```gradle/wrapper/gradle-wrapper.properties``` in this repository.
+
 ### Via Notebook
 
 The notebook provides a shell-like interaction mode, but more powerful. 

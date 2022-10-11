@@ -25,13 +25,11 @@ Follow these steps to accees the Virtual Lab on AWS Academy with a 100$ credit.
 - **Click the "End Lab"** button (top-right corner) at the end of class
   - If you don't, it should automatically shutdown in 4 hours, but 1) it will consume credit (only EC2 instances are automatically shut down), and 2) better safe than sorry.
 
-### FAQs
-
-*What happens when I end the lab?* 
-It depends on the service: for instance, data in S3 will persist (and consume very little credit even when the Lab is down), whereas EMR clusters (and all data within them) will be completely destroyed.
-
-*What happens when I finish my credits?*
-You will not be able to use the Lab anymore, not even the data in S3. However, you can request an additional Lab environment to be instantiated on a different account (with a different email), just ask the teacher.
+>*What happens when I end the lab?*  
+>It depends on the service: for instance, data in S3 will persist (and consume very little credit even when the Lab is down), whereas EMR clusters (and all data within them) will be completely destroyed.
+>
+>*What happens when I finish my credits?*  
+>You will not be able to use the Lab anymore, not even the data in S3. However, you can request an additional Lab environment to be instantiated on a different account (with a different email), just ask the teacher.
 
 
 
@@ -42,7 +40,7 @@ Follow these steps to activate the S3 service and start loading some datasets.
 - From the *console home*, click on "Services" (top-left corner) > "S3"
 - Create a bucket (it is a namespace for folders and files)
   - Its name must be unique within S3
-  - Suggestion: "unibo-bd2122-[username]" where [username] is the first letter of your first name, followed by your last name (e.g., "unibo-bd2122-egallinucci")
+  - Suggestion: "unibo-bd2223-[username]" where [username] is the first letter of your first name, followed by your last name (e.g., "unibo-bd2223-egallinucci")
 - Enter the newly created bucket and create a folder called "datasets"
 - Enter the newly created folder and upload the following datasets:
   - All file in the "datasets" folder of this repo

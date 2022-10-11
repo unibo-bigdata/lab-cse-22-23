@@ -1,5 +1,5 @@
 // Create an RDD from the files in the given folder
-val rddWeather = sc.textFile("s3a://unibo-bd2122-egallinucci/datasets/weather-sample1.txt")
+val rddWeather = sc.textFile("s3a://unibo-bd2223-egallinucci/datasets/weather-sample1.txt")
 
 // Function to parse weather records; returns key-value pairs in the form (month,temperature)
 def parseWeatherLine(line:String):(String,Double) = {
@@ -22,4 +22,4 @@ val rddCached = rddAvgTempPerMonth.sortByKey().coalesce(1).cache()
 // Show all the records
 rddCached.collect()
 // Save the RDD on HDFS; the directory should NOT exist; CHECK THE USERNAME
-rddCached.saveAsTextFile("s3a://unibo-bd2122-egallinucci/spark/301-2")
+rddCached.saveAsTextFile("s3a://unibo-bd2223-egallinucci/spark/301-2")

@@ -1,3 +1,4 @@
+/*
 package it.unibo.big
 
 import org.apache.spark.SparkContext
@@ -74,3 +75,4 @@ class TestSpark {
 //    assert(localAgeSum(0).get(0) == 62, "The sum of age should equal 62 but it equaled " + localAgeSum(0).get(0))
 //  }
 }
+*/

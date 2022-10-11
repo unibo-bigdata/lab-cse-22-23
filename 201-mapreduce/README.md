@@ -83,6 +83,9 @@ First of all, follow these steps to compile the code.
 - Run ```./gradlew```
 - You will find the compiled application **BD-201-mapreduce.jar** under ```build/libs```.
 
+>*I'm getting the error "java.lang.IllegalArgumentException: Unsupported class file major version XX".*  
+>Try updating gradle to a higher version by changing the file ```gradle/wrapper/gradle-wrapper.properties``` in this repository.
+
 Each job requires the following parameters:
 
 - ```<MainClass>```: the name of the class with the Main you want to run
@@ -117,7 +120,6 @@ The Main classes are the following:
 - ```exercise4.Ex4InvertedIndex```
   - Dataset: capra.txt or divinacommedia.txt
   - Goal: return the list of offsets for each word
-
 
 There are two main ways to run MapReduce jobs: scheduling a "step" on the EMR cluster, or manually launching it.
 
