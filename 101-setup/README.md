@@ -6,7 +6,7 @@ The goal of this lab is to enable access to the Virtual Lab on AWS Academy and l
 
 Follow these steps to accees the Virtual Lab on AWS Academy with a 100$ credit.
 
-- Register to the course on [Virtuale](virtuale.unibo.it)
+- Register to the course on [Virtuale](https://virtuale.unibo.it)
 - You will receive an invite to AWS Academy via email (manually sent by the teacher)
 - Click on the link received
   - Registration to AWS Academy is necessary
